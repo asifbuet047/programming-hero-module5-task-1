@@ -1,0 +1,95 @@
+.header-style {
+
+    border: 2px solid tomato;
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+}
+
+
+.header-div-2 {
+    border: 2px solid tomato;
+    width: 50%;
+}
+
+.header-style>div {
+
+    border-radius: 2px;
+    width: 525px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    top: 216px;
+    right: 230px;
+}
+
+.header-style>div>h1 {
+    margin: 2px;
+
+    padding: 2px;
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.header-style>div>p {
+    margin: 2px;
+    margin-top: 12px;
+
+    padding: 2px;
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.header-style>div>button {
+    width: 160px;
+    height: 64px;
+    margin: 2px;
+    margin-top: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    background: #F15B22;
+}
+
+.main-colum-1 {
+    border: 5px solid tomato;
+}
+
+.main-section-style {
+    border: 5px solid tomato;
+    display: flex;
+}
+
+.main-colum-2>h1 {
+    border: 5px solid tomato;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px;
+}
+
+.main-colum-2>p {
+    border: 5px solid tomato;
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+}
